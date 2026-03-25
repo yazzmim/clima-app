@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: white;
+    margin: 0;
+    padding: 40px 20px;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgb(31, 72, 109);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    font-size: 2.2em;
+}
+
+p {
+    margin-bottom: 25px;
+    opacity: 0.85;
+}
+
+.search-box {
+    display: flex;
+    gap: 8px;
+    max-width: 400px;
+    margin: 0 auto 25px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px 24px;
+    background: #f6821f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e05a00;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    min-height: 160px;
+    text-align: left;
+    display: none;
+    /* vamos mostrar só quando tiver resultado */
+}
+
+.resultado.show {
+    display: block;
+}
+
+.resultado h2 {
+    margin: 0 0 15px 0;
+    font-size: 1.8em;
+}
+
+.info {
+    font-size: 1.25em;
+    margin: 10px 0;
+}
+
+.small {
+    font-size: 0.9em;
+    opacity: 0.7;
+    margin-top: 20px;
+    text-align: center;
+}

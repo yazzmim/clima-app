@@ -9,7 +9,7 @@ async function buscarClima() {
     return;
   }
 
-  resultado.innerHTML = `<p>Consultando na edge...</p>`;
+  resultado.innerHTML = `<p>Consultando...</p>`;
   resultado.classList.add('show');
 
   try {

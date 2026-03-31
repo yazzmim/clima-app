@@ -27,7 +27,7 @@ async function buscarClima() {
       <div class="info">☁️ Condição: <strong>${data.condicao}</strong></div>
       <div class="info">💧 Umidade: <strong>${data.umidade}</strong></div>
       <div class="info">🌬️ Vento: <strong>${data.vento}</strong></div>
-      <div class="small">Processado na borda da Cloudflare • ${data.timestamp}</div>
+      <div class="small">${data.timestamp}</div>
     `;
 
   } catch (err) {

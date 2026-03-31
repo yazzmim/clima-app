@@ -9,7 +9,7 @@ export async function onRequestGet({ request }) {
   cidade = cidade.trim();
 
   try {
-    // ✅ Sua chave real do OpenWeatherMap
+    //chave do OpenWeatherMap
     const apiKey = "716a7136b6f1b6e9cf85dd511896916d";
 
     const res = await fetch(
